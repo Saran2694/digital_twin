@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="Theme.Twin" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/sidebar</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/sidebar</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+        <item name="android:textColorHint">@color/muted</item>
+    </style>
+
+    <style name="Theme.Twin.Bar" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/sidebar</item>
+        <item name="colorPrimaryDark">@color/sidebar</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+    </style>
+
+    <style name="Panel">
+        <item name="android:background">@drawable/bg_panel</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="H3">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="Theme.CastingTwin" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

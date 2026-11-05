@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#09152B</color>
+    <color name="sidebar">#0A1930</color>
+    <color name="panel">#0F1F3A</color>
+    <color name="border">#1C2F55</color>
+    <color name="text">#E8EEFB</color>
+    <color name="muted">#8DA2C4</color>
+    <color name="blue">#1F6FE5</color>
+    <color name="green">#22C55E</color>
+    <color name="amber">#F5A623</color>
+    <color name="red">#EF4444</color>
+    <color name="purple">#8B5CF6</color>
+</resources>

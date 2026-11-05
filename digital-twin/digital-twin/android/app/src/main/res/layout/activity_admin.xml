@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp">
+        <TextView android:id="@+id/tvStats" style="@style/Panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp" />
+        <TextView style="@style/H3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Users" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|end"
+        android:layout_margin="18dp" android:src="@android:drawable/ic_input_add" android:contentDescription="add user" />
+</FrameLayout>

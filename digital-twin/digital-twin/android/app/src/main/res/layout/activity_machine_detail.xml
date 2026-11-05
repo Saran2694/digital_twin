@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+        <LinearLayout style="@style/Panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <ImageView android:layout_width="120dp" android:layout_height="148dp" android:src="@drawable/machine" android:scaleType="centerCrop" android:contentDescription="machine" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="14dp">
+                <TextView android:id="@+id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="22sp" android:textStyle="bold" />
+                <TextView android:id="@+id/tvType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/muted" />
+                <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:paddingStart="14dp" android:paddingEnd="14dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:textColor="#1A1200" android:textStyle="bold" />
+                <TextView android:id="@+id/tvReason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/muted" android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/tvValues" style="@style/Panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:lineSpacingExtra="6dp" android:textSize="15sp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="12dp">
+            <Button android:id="@+id/r1h" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="1h" />
+            <Button android:id="@+id/r6h" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="6h" />
+            <Button android:id="@+id/r24h" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="24h" />
+            <Button android:id="@+id/r7d" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="7d" />
+        </LinearLayout>
+        <TextView style="@style/H3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sensor Trends (Temperature / Pressure)" />
+        <com.github.mikephil.charting.charts.LineChart android:id="@+id/chart" android:layout_width="match_parent" android:layout_height="280dp" />
+    </LinearLayout>
+</ScrollView>
